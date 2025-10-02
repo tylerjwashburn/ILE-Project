@@ -30,6 +30,7 @@ Neonic_full <- Neonic_Data %>%
     Creatinine_full %>% select(PID, TRIMESTER, creatinine),
     by = c("PID", "TRIMESTER")
   )
+change
 
 
 
